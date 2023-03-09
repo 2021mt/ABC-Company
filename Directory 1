@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Text;
-using Application.Model;
 using Application.DB;
 using System.Configuration;
 
@@ -56,8 +55,6 @@ namespace Application
         }
 
   
-
-
         /// <summary>
         /// Get the user public IP address
         /// </summary>
