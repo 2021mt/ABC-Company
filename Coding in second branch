@@ -1,0 +1,8 @@
+<%@ Page Title="Welcome" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Welcome.aspx.cs" Inherits="Application.Welcome" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <div style="padding:0% 20%;">
+    <asp:Image runat="server" ID="img" ImageUrl="~/Content/dist/img/Welcome.jpg" Width="100%" />
+        </div>
+</asp:Content>
